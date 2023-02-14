@@ -1,7 +1,7 @@
 // import { containerPreview, componentPreview } from '@vitepress-demo-preview/plugin'
 
 export default {
-  title: 'VitePress',
+  title: 'blog',
   description: 'Just playing around.',
   base: '/blog/',
   themeConfig: {
