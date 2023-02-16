@@ -55,6 +55,15 @@ export default {
         collapsed: true,
       },
       {
+        text: '算法',
+        items: [
+          { text: '冒泡排序', link: '/algorithms/bubbleSort' },
+          { text: '插入排序', link: '/algorithms/insertSort' },
+          { text: '二分查找法', link: '/algorithms/binarySearch' },
+        ],
+        collapsed: true,
+      },
+      {
         text: '其他',
         items: [
           { text: 'uni-app 自动化云打包开发思路', link: '/others/uni-app' },
