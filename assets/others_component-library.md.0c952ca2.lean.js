@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,a as p}from"./app.4f7d1f0f.js";const m=JSON.parse('{"title":"vue组件库开发思路","description":"","frontmatter":{},"headers":[],"relativePath":"others/component-library.md"}'),r={name:"others/component-library.md"},a=p("",8),n=[a];function o(c,i,_,l,d,u){return s(),t("div",null,n)}const b=e(r,[["render",o]]);export{m as __pageData,b as default};

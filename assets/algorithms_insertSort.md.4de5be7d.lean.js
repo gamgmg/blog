@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.4f7d1f0f.js";const A=JSON.parse('{"title":"插入排序","description":"","frontmatter":{},"headers":[],"relativePath":"algorithms/insertSort.md"}'),p={name:"algorithms/insertSort.md"},o=l("",3),t=[o];function e(c,r,y,F,D,i){return a(),n("div",null,t)}const f=s(p,[["render",e]]);export{A as __pageData,f as default};
