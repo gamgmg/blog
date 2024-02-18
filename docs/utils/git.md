@@ -4,7 +4,7 @@
 
 ### Commitizen
 
-Commitizen是一个撰写合格 Commit message 的工具  
+Commitizen是一个撰写合格 Commit message 的工具
 
 安装命令如下
 
@@ -84,15 +84,15 @@ git push origin —delete [<分支名>]
 git remote prune origin
 ```
 
-## 修改项目git源
+## 修改项目 git 源
 
-1.先把所有修改过的代码进行commit
+1.先把所有修改过的代码进行 commit
 
 ```bash
 git commit -m "change."
 ```
 
-2.删掉原来git源
+2.删掉原来 git 源
 
 ```bash
 git remote remove origin
@@ -108,4 +108,22 @@ git remote add origin http://xxxxxxxxxx.git
 
 ```bash
 git push -u origin master
+```
+
+## 查看和修改 git 账号和邮箱（密码）
+
+去掉 --global 可查看和修改当前仓库的账号和邮箱
+
+查看
+
+```bash
+git config --global user.name
+git config --global user.email
+```
+
+修改
+
+```bash
+git config --global user.name "your name"
+git config --global user.email "your email"
 ```

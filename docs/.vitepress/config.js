@@ -9,10 +9,8 @@ export default {
     nav: [{ text: "GitHub", link: "https://github.com/gamgmg/blog" }],
     sidebar: [
       {
-        text: "作品",
-        items: [
-          { text: "h5组件库", link: "https://gamgmg.github.io/h5-component/" },
-        ],
+        text: "h5组件库",
+        link: "https://gamgmg.github.io/h5-component/",
       },
       {
         text: "常用工具",
@@ -49,6 +47,7 @@ export default {
           { text: "github", link: "/issues/github" },
           { text: "vue组件库", link: "/issues/vue-component" },
           { text: "跨域", link: "/issues/cors" },
+          { text: "electron", link: "/issues/electron" },
         ],
         collapsed: true,
       },
@@ -78,6 +77,11 @@ export default {
           { text: "一些好用的nodejs库", link: "/others/node-library" },
           { text: "一些不错的网站与博客", link: "/others/sites&blogs" },
         ],
+        collapsed: true,
+      },
+      {
+        text: "electron",
+        items: [{ text: "Mac平台签名公证流程", link: "/electron/sign" }],
         collapsed: true,
       },
     ],
