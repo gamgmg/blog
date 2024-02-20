@@ -84,6 +84,12 @@ git push origin —delete [<分支名>]
 git remote prune origin
 ```
 
+关联并推送到远程分支
+
+```bash
+git push -u origin [<分支名>]
+```
+
 ## 修改项目 git 源
 
 1.先把所有修改过的代码进行 commit
