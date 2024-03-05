@@ -13,6 +13,15 @@ export default {
         link: "https://gamgmg.github.io/h5-component/",
       },
       {
+        text: "electron",
+        items: [{ text: "Mac平台签名公证流程", link: "/electron/sign" }],
+        collapsed: true,
+      },
+      {
+        text: "数据库",
+        items: [{ text: "MySQL", link: "/sql/mysql" }],
+      },
+      {
         text: "常用工具",
         items: [
           { text: "npm", link: "/utils/npm" },
@@ -78,11 +87,6 @@ export default {
           { text: "一些不错的网站与博客", link: "/others/sites&blogs" },
           { text: "关于package.json", link: "/others/package_json" },
         ],
-        collapsed: true,
-      },
-      {
-        text: "electron",
-        items: [{ text: "Mac平台签名公证流程", link: "/electron/sign" }],
         collapsed: true,
       },
     ],
