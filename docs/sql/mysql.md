@@ -32,7 +32,7 @@ or
 brew link --overwrite mysql
 ```
 
-启动服务后可以给 mysql 设置密码
+启动服务后可以执行`mysql_secure_installation`给 mysql 设置密码
 
 ```bash
 mysql_secure_installation

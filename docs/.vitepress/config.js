@@ -6,12 +6,11 @@ export default {
   base: "/blog/",
   themeConfig: {
     siteTitle: "Blog",
-    nav: [{ text: "GitHub", link: "https://github.com/gamgmg/blog" }],
+    nav: [
+      { text: "组件库", link: "https://gamgmg.github.io/h5-component/" },
+      { text: "GitHub", link: "https://github.com/gamgmg/blog" },
+    ],
     sidebar: [
-      {
-        text: "h5组件库",
-        link: "https://gamgmg.github.io/h5-component/",
-      },
       {
         text: "electron",
         items: [{ text: "Mac平台签名公证流程", link: "/electron/sign" }],

@@ -55,3 +55,7 @@
 ## [marked](https://www.npmjs.com/package/marked)
 
 使用 JavaScript 将 Markdown 转换为 HTML
+
+## [chokidar](https://www.npmjs.com/package/chokidar)
+
+Chokidar 是一个 Node.js 的库，用于监视文件系统的变化。它使用了高效的事件模型，可以在文件或目录被添加、更改或删除时触发事件。Chokidar 的 API 设计得非常简单，易于使用
