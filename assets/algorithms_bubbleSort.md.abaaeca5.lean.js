@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,a as l}from"./app.75f8440a.js";const A=JSON.parse('{"title":"冒泡排序","description":"","frontmatter":{},"headers":[],"relativePath":"algorithms/bubbleSort.md"}'),p={name:"algorithms/bubbleSort.md"},o=l("",3),t=[o];function e(c,r,y,F,D,C){return a(),n("div",null,t)}const f=s(p,[["render",e]]);export{A as __pageData,f as default};
