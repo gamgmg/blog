@@ -75,6 +75,7 @@ export default {
           { text: "插入排序", link: "/algorithms/insertSort" },
           { text: "二分查找法", link: "/algorithms/binarySearch" },
           { text: "斐波那契数列", link: "/algorithms/fibonacci" },
+          { text: "等差数列求和", link: "/algorithms/arithmetic" },
         ],
         collapsed: true,
       },

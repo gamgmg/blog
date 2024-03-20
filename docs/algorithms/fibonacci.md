@@ -21,17 +21,25 @@ function fib(n) {
   // 从第三项开始，每一项都是前两项之和
   return fib(n - 1) + fib(n - 2);
 }
+
+console.log(fib(10));
+// 55
 ```
 
-举个数字递减相加的例子：
+## 通项公式
+
+斐波那契数列的通项公式为：F(n)=[(1+√5)/2]^n/√5。
+
+转换成 js 函数就是：
 
 ```js
 function fib(n) {
-  if (n < 2) {
-    return n;
-  }
-  return n + fib(n - 1);
+  const sqrt5 = Math.sqrt(5);
+  const phi = (1 + sqrt5) / 2;
+  // 因为当n很大的时候，可能会有精度问题，这里使用 Math.round 来四舍五入结果
+  return Math.round(Math.pow(phi, n) / Math.sqrt(5));
 }
-fib(100);
-// 100 + 99 + 98 + .... + 2 + 1 + 0 = 5050
+
+console.log(fib(10));
+// 55
 ```
