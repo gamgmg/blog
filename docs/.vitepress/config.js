@@ -73,8 +73,8 @@ export default {
         items: [
           { text: "时间复杂度", link: "/algorithms/timeComplexity" },
           { text: "冒泡排序", link: "/algorithms/bubbleSort" },
-          { text: "插入排序", link: "/algorithms/insertSort" },
-          { text: "二分查找法", link: "/algorithms/binarySearch" },
+          { text: "插入排序", link: "/algorithms/insertionSort" },
+          { text: "二分查找", link: "/algorithms/binarySearch" },
           { text: "斐波那契数列", link: "/algorithms/fibonacci" },
           { text: "等差数列求和", link: "/algorithms/arithmetic" },
         ],
