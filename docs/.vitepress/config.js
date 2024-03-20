@@ -71,6 +71,7 @@ export default {
       {
         text: "算法",
         items: [
+          { text: "时间复杂度", link: "/algorithms/timeComplexity" },
           { text: "冒泡排序", link: "/algorithms/bubbleSort" },
           { text: "插入排序", link: "/algorithms/insertSort" },
           { text: "二分查找法", link: "/algorithms/binarySearch" },
