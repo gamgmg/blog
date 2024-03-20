@@ -1,5 +1,11 @@
 # MySQL
 
+MySQL 是一个关系型数据库管理系统，由瑞典 MySQL AB 公司开发，现在属于 Oracle 公司。MySQL 是最流行的关系型数据库管理系统之一，在 WEB 应用方面，MySQL 是最好的 RDBMS (Relational Database Management System：关系数据库管理系统) 应用软件。
+
+MySQL 支持多种操作系统，包括各种 Unix/Linux 版本、Windows、macOS 等，并且提供了多种编程语言的 API，包括 C、C++、Java、Python、PHP、Go 等。
+
+MySQL 使用 SQL 语言进行数据库查询和管理。SQL 是一种标准的语言，用于访问和操作数据库系统。
+
 ## 安装(mac)
 
 使用 Homebrew 安装 MySQL
