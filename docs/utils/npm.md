@@ -1,4 +1,4 @@
-# npm基本使用
+# npm 基本使用
 
 ## 登录
 
@@ -18,7 +18,7 @@ npm who am i
 npm publish
 ```
 
-:exclamation: 发布包到npm时，需设置成[npm源](#源)， 不然会报403错误，提示找不到该用户
+:exclamation: 发布包到 npm 时，需设置成[npm 源](#源)， 不然会报 403 错误，提示找不到该用户
 
 ## 删除已发布包
 
@@ -31,7 +31,7 @@ npm unpublish [<pkg>][@<version>] --force
 在项目目录执行
 
 ```bash
-npm link 
+npm link
 ```
 
 或者
@@ -52,7 +52,7 @@ npm unlink  [<pkg>][@<version>] -g
 npm uninstall  [<pkg>][@<version>] -g
 ```
 
-:exclamation: 由于npm会把当前项目的package.json的name作为项目名称软链接到当前node版本的node_modules文件夹下，所以删除时要使用本地项目package.json的name，而不是项目目录名
+:exclamation: 由于 npm 会把当前项目的 package.json 的 name 作为项目名称软链接到当前 node 版本的 node_modules 文件夹下，所以删除时要使用本地项目 package.json 的 name，而不是项目目录名
 
 ## 源 {#源}
 
@@ -65,5 +65,5 @@ https://registry.npmjs.org/
 淘宝
 
 ```bash
-https://registry.npm.taobao.org/
+https://registry.npmmirror.com
 ```
