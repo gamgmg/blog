@@ -88,6 +88,7 @@ export default {
           { text: "一些好用的nodejs库", link: "/others/node-library" },
           { text: "一些不错的网站与博客", link: "/others/sites&blogs" },
           { text: "关于package.json", link: "/others/package_json" },
+          { text: "前端导出Excel", link: "/others/xlsx" },
         ],
         collapsed: true,
       },

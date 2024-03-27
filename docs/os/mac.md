@@ -39,7 +39,9 @@ source ~/.bash_profile
 
 删除文件/文件夹：command + delete
 
-打开当前聚焦的文件夹下的终端 control + option + t
+打开当前聚焦的文件夹下的终端： control + option + t
+
+切换显示/隐藏文件：command + shift + .
 
 ## 新建文件
 
